@@ -19,8 +19,8 @@ Input: Allows you to enter the match statistics, including the team names, goals
 Table: Displays the match statistics table, league standings, and the winner of the match.
 
 # Required Changes
--Does not updates the wins,loss and draw columns.
--Winner is not displayed Correctly.
+- Does not updates the wins,loss and draw columns.
+- Winner is not displayed Correctly.
 
 # Contributing
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Contributions are welcome!
