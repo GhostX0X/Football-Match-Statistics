@@ -7,16 +7,16 @@ This is a Shiny web application that allows you to input and track match statist
 
 To run the application locally, you need to have R and the required packages installed. You can install the necessary packages by running the following commands in your R console:
 
-install.packages("shiny")
-install.packages("shinydashboard")
+- install.packages("shiny")
+- install.packages("shinydashboard")
 
 # Usage
 To launch the application, open the R script file (app.R) and execute the shinyApp(ui = ui, server = server) command. This will start the Shiny server, and you can access the application through your web browser.
 
 The application consists of two tabs:
 
-Input: Allows you to enter the match statistics, including the team names, goals scored, and shots taken.
-Table: Displays the match statistics table, league standings, and the winner of the match.
+- Input: Allows you to enter the match statistics, including the team names, goals scored, and shots taken.
+- Table: Displays the match statistics table, league standings, and the winner of the match.
 
 # Required Changes
 - Does not updates the wins,loss and draw columns.
